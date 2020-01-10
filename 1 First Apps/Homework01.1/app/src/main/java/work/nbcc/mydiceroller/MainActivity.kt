@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         rollButton.setOnClickListener{rollDice()}
         var countButton: Button = findViewById(R.id.countUp_button)
         countButton.setOnClickListener{Count()}
+        var resetButton:Button = findViewById(R.id.reset_button)
+        resetButton.setOnClickListener{Reset()}
     }
 
     private fun rollDice(){
@@ -39,5 +41,9 @@ class MainActivity : AppCompatActivity() {
                 result_text.text = countup.toString()
             }
         }
+    }
+
+    private fun Reset(){
+        result_text.text = "0"
     }
 }
