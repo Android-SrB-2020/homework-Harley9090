@@ -24,13 +24,12 @@ class MainActivity : AppCompatActivity() {
         var rollButton: Button = findViewById(R.id.roll_button)
         rollButton.setOnClickListener{rollDice()}
 
+        var clearTheButton:Button = findViewById(R.id.clear_button)
+        clearTheButton.setOnClickListener{clearImage()}
+
         diceImage1 = findViewById(R.id.dice1_image)
         diceImage2 = findViewById(R.id.dice2_image)
-        //var countButton: Button = findViewById(R.id.countUp_button)
-       // countButton.setOnClickListener{Count()}
 
-       // var resetButton:Button = findViewById(R.id.reset_button)
-       // resetButton.setOnClickListener{Reset()}
     }
 
     private fun rollDice(){
@@ -51,21 +50,9 @@ class MainActivity : AppCompatActivity() {
             else -> R.drawable.dice_6
         }
     }
-    //private fun Count(){
-        //if(result_text.text == "Hello World"){
-         //   result_text.text = "1"
-       // }
-       // else{
-       //     var countup = result_text.text.toString().toInt()
 
-          //  if(countup < 6){
-             //   countup++
-               // result_text.text = countup.toString()
-            //}
-       // }
-   // }
-
-   // private fun Reset(){
-    //    result_text.text = "0"
-   // }
+    private fun clearImage(){
+        diceImage1.setImageResource(R.drawable.empty_dice)
+        diceImage2.setImageResource(R.drawable.empty_dice)
+    }
 }
