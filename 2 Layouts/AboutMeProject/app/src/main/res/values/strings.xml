@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="name">Harley</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        \nIn tempor risus a ullamcorper laoreet. Donec ullamcorper laoreet tincidunt.
+        \nNullam consequat sem dolor, et venenatis velit placerat eu. Donec in neque tempor, ornare sapien eu, cursus nisi.
+        \nNam dapibus metus libero, eu luctus mauris tempor commodo. Etiam leo eros, imperdiet ut lacus et, accumsan pretium nisl.
+        \nDonec nec justo laoreet, vestibulum lorem id, luctus velit.
+        \nUt sed sagittis nunc, et pulvinar turpis. Nulla pretium vel velit vel elementum.
+        \n\nMauris quis nunc eget nisl aliquam ullamcorper. Vivamus sed malesuada lacus.
+        \nAliquam tincidunt quam id elit tristique tempus. Vivamus et pharetra metus, in sagittis urna.
+        \n\nEtiam sagittis augue quam, at blandit ipsum rhoncus et.
+        \nAenean congue, enim et suscipit vestibulum, quam leo dapibus diam, eu cursus neque lorem at nibh.\n\n </string>
+</resources>
