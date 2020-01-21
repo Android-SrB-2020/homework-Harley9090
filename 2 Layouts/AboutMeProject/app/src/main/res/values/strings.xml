@@ -13,4 +13,10 @@
         \n\nEtiam sagittis augue quam, at blandit ipsum rhoncus et.
         \nAenean congue, enim et suscipit vestibulum, quam leo dapibus diam, eu cursus neque lorem at nibh.\n\n </string>
     <string name="yellowBig_star">yellowBig_Star</string>
+    <string name="edit_name"></string>
+    <string name="what_is_your_nickname"></string>
+    <string name="string_what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
+    <string name="nickname_text" />
+
 </resources>
