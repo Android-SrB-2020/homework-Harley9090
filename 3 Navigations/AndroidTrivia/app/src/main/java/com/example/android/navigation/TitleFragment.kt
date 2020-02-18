@@ -48,6 +48,22 @@ class TitleFragment : Fragment() {
             }
 
         }
+
+        binding.AboutButton.setOnClickListener {
+            binding.AboutButton.setOnClickListener { view: View ->
+                view.findNavController().navigate(R.id.action_titleFragment2_to_aboutFragment2)
+            }
+
+        }
+
+        binding.RulesButton.setOnClickListener {
+            binding.RulesButton.setOnClickListener { view: View ->
+                view.findNavController().navigate(R.id.action_titleFragment2_to_rulesFragment2)
+            }
+
+        }
+
+
         setHasOptionsMenu(true)
         return binding.root
     }

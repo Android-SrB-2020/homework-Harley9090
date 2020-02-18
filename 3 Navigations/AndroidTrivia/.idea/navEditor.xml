@@ -13,8 +13,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-822" />
-                            <option name="y" value="16" />
+                            <option name="x" value="-835" />
+                            <option name="y" value="94" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -25,8 +25,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-427" />
-                            <option name="y" value="14" />
+                            <option name="x" value="-436" />
+                            <option name="y" value="110" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -93,8 +93,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-826" />
-                            <option name="y" value="306" />
+                            <option name="x" value="-840" />
+                            <option name="y" value="-212" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -105,13 +105,23 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-625" />
-                            <option name="y" value="14" />
+                            <option name="x" value="-633" />
+                            <option name="y" value="106" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_titleFragment2_to_aboutFragment2">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_titleFragment2_to_gameFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_titleFragment2_to_rulesFragment2">
                               <value>
                                 <LayoutPositions />
                               </value>
